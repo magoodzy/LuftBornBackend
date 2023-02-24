@@ -1,0 +1,63 @@
+.container-fluid{
+        background-color: #1d3149 ;
+        min-height: 55rem;
+
+}
+
+.formContainer {
+  
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    .borderRed{
+        border-color: red;
+    }
+    .loginHeader{
+        background-color: #c8855f !important;
+        color: #1d3149 !important;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        h2{
+            letter-spacing: 2px;
+            font-size: 20px;
+        }
+    }
+   .inputContainer{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    form{
+        input{
+            box-shadow: none !important;
+            font-size: 12px;
+        }
+        input:focus{
+            border-color: #1d3149;
+        }
+        label{
+            color: #1d3149;
+            font-size: 12px;
+
+        }
+        .firstBtn{
+            color: #1d3149;
+            letter-spacing: 2px;
+            background: none;
+            border: none;
+            font-size: 10px;
+
+        }
+        .firstBtn:hover{
+            color: #f0583f;
+            box-shadow: none ;
+
+        }
+        .submitBtn{
+            background-color: #1d3149;
+            color: white;
+            letter-spacing: 2px;
+            box-shadow: none ;
+            font-size: 12px;
+
+        }
+    }
+   }
+}
